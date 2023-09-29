@@ -1,0 +1,31 @@
+package pelotas;
+
+/**
+ *
+ * @author paula
+ */
+public class Pelota {
+    
+
+   String nombrePelota = "Tenis";
+   String nombrePelota1 = "basquetbol";
+   String nombrePelota2 = "voleibol";
+   String nombrePelota3 = "Golf";
+   
+   
+   
+   public void desplazar (){
+   System.out.println("la pelota de "+ nombrePelota + " se desplaza," + " su material es felpudo" + " y es verde" );
+   System.out.println("la pelota de "+ nombrePelota1 + " se desplaza " + "es rugosa " +  " y es grande ");
+   System.out.println("la pelota de "+ nombrePelota2 + " se desplaza " + "es lisa " +  " sus colores son variados ");
+   System.out.println("la pelota de "+ nombrePelota3 + " se desplaza " + "es rugosa " +  "su color es blanco ");
+       
+   }
+  public void rebotar() {
+  System.out.println( "la pelota de " + nombrePelota + " tambien rebota y es pequeña " ); 
+  System.out.println("la pelota de " + nombrePelota1 + " rebota y es naranja " );
+  System.out.println( "la pelota de " + nombrePelota2 + " rebota y su tamaño es mediano " );
+  System.out.println( "la pelota de a" + nombrePelota3 + " rebota y su tamaño pequeño " );
+  }
+          
+}
