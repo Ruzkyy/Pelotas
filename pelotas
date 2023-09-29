@@ -1,0 +1,8 @@
+public static void main(String[] args) {
+        // TODO code application logic here
+        
+
+        Pelota objeto = new Pelota ();
+        objeto.desplazar();
+        Pelota objeto1 = new Pelota ();
+        objeto.rebotar();
